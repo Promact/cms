@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promact.CMS.Web", "Promact.CMS.Web\Promact.CMS.Web.csproj", "{007D1E63-4F44-49DD-825A-D6945B8A2317}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promact.CMS.WebAPI", "Promact.CMS.Api\Promact.CMS.WebAPI.csproj", "{387C6611-850E-4128-8F8F-705497C7389B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promact.CMS.Services", "Promact.CMS.Services\Promact.CMS.Services.csproj", "{26CA8A65-80FF-4BED-98EC-5CA6BD8B8A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promact.CMS.Core", "Promact.CMS.Core\Promact.CMS.Core.csproj", "{BA471587-B192-4DCD-A362-7AC5074CEA3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{007D1E63-4F44-49DD-825A-D6945B8A2317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{007D1E63-4F44-49DD-825A-D6945B8A2317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{007D1E63-4F44-49DD-825A-D6945B8A2317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387C6611-850E-4128-8F8F-705497C7389B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387C6611-850E-4128-8F8F-705497C7389B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387C6611-850E-4128-8F8F-705497C7389B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387C6611-850E-4128-8F8F-705497C7389B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26CA8A65-80FF-4BED-98EC-5CA6BD8B8A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CA8A65-80FF-4BED-98EC-5CA6BD8B8A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CA8A65-80FF-4BED-98EC-5CA6BD8B8A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CA8A65-80FF-4BED-98EC-5CA6BD8B8A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA471587-B192-4DCD-A362-7AC5074CEA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA471587-B192-4DCD-A362-7AC5074CEA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA471587-B192-4DCD-A362-7AC5074CEA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA471587-B192-4DCD-A362-7AC5074CEA3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
